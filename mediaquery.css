@@ -1,0 +1,158 @@
+/* Tablet: 768px */
+@media only screen and (min-width: 768px) {
+    body {
+        /* background-color: aliceblue; */
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .eps {
+        height: auto;
+        flex-direction: row;
+    }
+
+    .thumbnail {
+        height: 300px;
+        flex-basis: 40%;
+    }
+
+    .eps-detail {
+        flex-grow: 1;
+        justify-content: space-around;
+    }
+    .thumbnail {
+        border-radius: 15px 0 0 15px;
+    }
+
+    .g-profile {
+        flex-basis: 30%;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+
+    footer section {
+        flex-basis: 30%;
+    }
+    .about {
+        justify-content: flex-start;
+    }
+    
+
+}
+
+
+
+
+
+
+
+/* Laptop:  992px */
+@media only screen and (min-width: 992px) {
+    body {
+        /* background-color: lightblue; */
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #nav-links {
+        list-style-type: none;
+
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+
+    
+    #nav-links li {
+        font-size: 24px;
+        text-align: center;
+        flex: 1 0 25%;
+
+        transition: .1s linear;
+    }
+
+    #nav-links li:hover {
+        flex-grow: 2;
+        background-color: rgba(245, 245, 245, 0.5);
+        border-bottom: 3px solid #2C3639;
+    }
+
+    #nav-links li a {
+        text-decoration: none;
+        color: #2C3639;
+        font-weight: 600;
+    }
+
+    .logo {
+        flex-basis: 30%;
+    }
+
+    nav {
+        flex-basis: 70%;
+    }
+
+    .banner {
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+
+    .text {
+        flex-basis: 30%;
+        text-align: left;
+    }
+    .text h1 {
+        font-size: 7rem;
+        line-height: 8rem;
+    }
+
+    .image {
+        flex-basis: 70%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        flex-grow: 1;
+    }
+
+    .podcast {
+        flex-direction: row;
+    }
+
+    .podcasters {
+        flex-basis: 30%;
+
+    }
+    .episodes {
+        flex-basis: 70%;
+    }
+
+    .profile {
+        flex-grow: 1;
+    }
+
+    
+}
+
+
+
+/* Desktop: 1248px */
+@media only screen and (min-width: 1248px) {
+    body {
+        /* background-color: lightskyblue; */
+        width: 75%;
+        margin: 0 auto;
+    }
+
+
+
+}
